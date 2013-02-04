@@ -1,0 +1,141 @@
+# Chapter 1: Setup and Installation 
+
+## Installing with curl  
+
+    # bash
+    curl https://install.meteor.com | /bin/sh
+
+    # bash
+    meteor create ~/my_cool_app
+    cd ~/my_cool_app
+    meteor
+
+reference `http://docs.meteor.com`
+
+## Loading an example application  
+
+    # bash
+    meteor create --example todos
+    cd todos
+    meteor
+
+## Making code changes 
+
+### Changing from todos to items  
+
+Example of Reactive Programming
+
+    # s/title/items
+    vi client/todos.html
+
+App now shows items instead of titles
+
+------------------------------------------------------------
+
+# Chapter 2: Reactive Programming... It's Alive!   15
+
+## Creating the Lending Library  
+### Creating the base application 
+### Creating a collection 
+### Fun with the browser console  
+### Adding some data  
+### Displaying collections in HTML  
+### Cleaning up 
+
+## Creating a reaction 
+
+## Multiple clients  
+
+## Summary 30
+
+------------------------------------------------------------
+
+# Chapter 3: Why Meteor Rocks!   31
+
+## Modern web applications 
+### The origin of the web app (client/server) 
+### The rise of the machines (MVC)  
+### The browser grows up (MVVM) 
+
+## A giant Meteor appears! 
+### Cached and synchronized data (the model)  
+### Templated HTML (the view) 
+### Meteor's client code (the View-Model) 
+
+## Let's create some templates 
+
+## Summary 46
+
+------------------------------------------------------------
+
+# Chapter 4: Templates   47
+
+## A new HTML template 
+
+## Gluing it all together  
+### Our items View-Model  
+### Additional view states  
+### Adding events 
+### Model updates 
+### Style updates 
+
+## Summary 67
+
+------------------------------------------------------------
+
+# Chapter 5: Data, Meteor Style!   69
+
+## Document-oriented storage 
+### But why not use a relational database 
+### MongoDB 71
+### Using direct commands 
+
+## Broadcasting changes  
+### Published events  
+
+## Configuring publishers  
+### Turning off autopublish 
+### Listing categories  
+### Listing items 
+### Checking your streamlined data  
+
+## Summary 84
+
+------------------------------------------------------------
+
+# Chapter 6: Application and Folder Structure  85
+
+## Client and server folders 
+### Public folder 
+
+## Security and accounts 
+### Removing insecure 
+### Adding an admin account 
+### Granting admin permissions  
+
+## Customizing results 
+### Modifying Meteor.publish()  
+### Adding owner privileges 
+### Enabling multiple users 
+
+## Summary 102k
+
+------------------------------------------------------------
+
+# Chapter 7: Packaging and Deploying  
+### Third-party packages  
+### Listing available packages  
+
+## Bundling your application 
+
+## Deploying to Meteor's servers 
+### Updating Meteor's servers 
+### Using your own hostname 
+
+## Deploying to a custom server  
+### Server setup  
+### Deploying your bundle 
+### Optional – different platform 
+### Running your application  
+
+## Summary 111
