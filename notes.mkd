@@ -35,6 +35,9 @@ Reactive Programming => code change reflects in UI without requiring refresh
 # Chapter 2: Reactive Programming... It's Alive!   15
 
 ## Creating the Lending Library  
+
+    meteor create LendLib
+
 ### Creating the base application 
 ### Creating a collection 
 ### Fun with the browser console  
