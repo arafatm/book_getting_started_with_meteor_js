@@ -28,7 +28,7 @@ Example of Reactive Programming
     # s/title/items
     vi client/todos.html
 
-App now shows items instead of titles
+Reactive Programming => code change reflects in UI without requiring refresh
 
 ------------------------------------------------------------
 
