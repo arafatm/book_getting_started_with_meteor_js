@@ -9,12 +9,15 @@
 </body>
 
 <template name="categories">
-  <div class="title">my stuff</div>
-  <ul id="categories">
+
+  <h2 class="title">my stuff</h2>
+
+  <ul id="categories" class="btn-group">
     {{#each lists}}
-    <li class="category">
+    <li class="category btn btn-inverse">
       {{Category}}
     </li>
     {{/each}}
   </ul>
+
 </template>
