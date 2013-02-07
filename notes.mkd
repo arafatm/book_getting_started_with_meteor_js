@@ -25,18 +25,19 @@ reference `http://docs.meteor.com`
 
 Example of Reactive Programming
 
-    # s/title/items
     vi client/todos.html
+    # s/title/items
 
 Reactive Programming => code change reflects in UI without requiring refresh
 
-------------------------------------------------------------
+------------------------------------------------------------------------------
+
 
 # Chapter 2: Reactive Programming... It's Alive!   15
 
 ## Creating the Lending Library  
 
-    meteor create LendLib
+    meteor create lendlib
 
 ### Creating the base application 
 ### Creating a collection 
