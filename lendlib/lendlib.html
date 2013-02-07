@@ -3,26 +3,18 @@
 </head>
 
 <body>
-  {{> hello}}
-
   <div id="categories-container">
     {{> categories}}
   </div>
 </body>
 
-<template name="hello">
-  <h1>Lending Library</h1>
-  {{greeting}}
-  <input type="button" value="Click" />
-</template>
-
 <template name="categories">
   <div class="title">my stuff</div>
-  <div id="categories">
+  <ul id="categories">
     {{#each lists}}
-    <div class="category">
+    <li class="category">
       {{Category}}
-    </div>
+    </li>
     {{/each}}
-  </div>
+  </ul>
 </template>
