@@ -30,7 +30,7 @@ Example of Reactive Programming
 
 Reactive Programming => code change reflects in UI without requiring refresh
 
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 
 # Chapter 2: Reactive Programming... It's Alive!   15
@@ -52,7 +52,7 @@ Reactive Programming => code change reflects in UI without requiring refresh
 
 ## Summary 30
 
-------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 # Chapter 3: Why Meteor Rocks!   31
 
