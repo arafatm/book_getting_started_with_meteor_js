@@ -39,6 +39,8 @@ Reactive Programming => code change reflects in UI without requiring refresh
 
     meteor create lendlib
 
+Support for `minimongo`
+
 ### Creating the base application 
 ### Creating a collection 
 ### Fun with the browser console  

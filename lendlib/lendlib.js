@@ -1,3 +1,5 @@
+var lists = new Meteor.Collection("Lists");
+
 if (Meteor.isClient) {
   Template.hello.greeting = function () {
     return "My List.";
